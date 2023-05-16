@@ -1,19 +1,19 @@
-# DDOSV3
+# Getblaze
 
 Getblaze is a [DoS (Denial of Service)](https://en.wikipedia.org/wiki/Denial-of-service_attack) tool that can send over 1k GET requests per second and overload web servers.
 
 ## Building
 
 ```bash
-  git clone https://github.com/SonuModder1/DDOSV3
-  cd DDOSV3
+  git clone https://github.com/zer-far/getblaze
+  cd getblaze
   make
 ```
 
 ## Usage
 
 ```bash
-./DDOSV3 --hostname https://example.com
+./getblaze --hostname https://example.com
 ```
 Press control+c to stop.
 
